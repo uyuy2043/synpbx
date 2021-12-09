@@ -29,11 +29,11 @@ $config['default'] = array
 	'persistent'    => FALSE,
 	'connection'    => array
 	(
-		'type'     => 'mysql',
+		'type'     => 'pgsql',
 		'user'     => 'bluebox',
 		'pass'     => 'bluebox',
 		'host'     => '127.0.0.1',
-		'port'     => '3306',
+		'port'     => '5432',
 		'socket'   => FALSE,
 		'database' => 'bluebox'
 	),
